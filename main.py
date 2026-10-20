@@ -37,6 +37,7 @@ caminho_gulosa, visitadas_gulosa = gulosa(
     grafo, inicio, saida
 )
 
+
 print("\nCaminho encontrado pela Busca Gulosa:")
 if caminho_gulosa:
     desenhar(labirinto, caminho_gulosa)
@@ -46,6 +47,6 @@ else:
 
 print("Casas visitadas:", visitadas_gulosa)
 
-print("Coordenadas do caminho da Gulosa:")
-print(caminho_gulosa)
+#print("Coordenadas do caminho da Gulosa:")
+#print(caminho_gulosa)
 
